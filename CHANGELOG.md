@@ -1,3 +1,10 @@
+# [0.9.0](https://github.com/Yuliang-Lee/vite-plugin-theme/commit/adcb5b67c51ac1deda7dcb4851aa706319034bd3) (2023-03-26)
+
+### Bug Fixes
+
+- fix bug https://github.com/vbenjs/vite-plugin-theme/issues/27 修复 vite 升级 3 版本后插件出现变量未定义的报错。
+- fix bug https://github.com/vbenjs/vite-plugin-theme/issues/26 修复生产环境切换主题失效的问题。
+
 ## [0.8.1](https://github.com/vbenjs/vite-plugin-theme/compare/v0.6.4...v0.8.1) (2021-05-29)
 
 

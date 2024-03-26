@@ -1,5 +1,7 @@
 # @xlaoyu/vite-plugin-theme
 
+原作者的 [vite-plugin-theme](https://github.com/vbenjs/vite-plugin-theme) 不再维护, 所以 fork 新仓库解决一些 vite 适配问题
+
 **English** | [中文](./README.zh_CN.md)
 
 [![npm][npm-img]][npm-url] [![node][node-img]][node-url]
@@ -59,6 +61,7 @@ export default defineConfig({
 | customerExtractVariable | `(css:string)=>string` | - | Custom css matching color extraction logic |
 | fileName | `string` | `app-theme-style.hash.css` | File name output after packaging |
 | injectTo | `body` or `head` or `body-prepend` | `body` | The css loaded in the production environment is injected into the label body |
+| isProd | `boolean` | true | 默认不用设置,效果就可以切换主题, 设置为 false 则生产环境禁止切换主题 | 
 
 ## Sample project
 

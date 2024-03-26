@@ -1,6 +1,10 @@
 {
   "name": "@xlaoyu/vite-plugin-theme",
   "version": "0.9.0",
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
   "description": "Vite plugin for dynamically changing the theme color of the interface",
   "main": "dist/index.js",
   "module": "dist/index.js",
