@@ -59,12 +59,12 @@ export function injectClientPlugin(
     },
     async transform(code, id) {
       const nid = normalizePath(id);
-      const path = normalizePath('vite-plugin-theme/es/client.js');
+      const path = normalizePath('@xlaoyu/vite-plugin-theme/es/client.js');
       const getMap = () => (needSourcemap ? this.getCombinedSourcemap() : null);
 
       if (
         nid === CLIENT_PUBLIC_ABSOLUTE_PATH ||
-        nid.endsWith(path) ||
+        nid.includes(path) ||
         // support .vite cache
         nid.includes(path.replace(/\//gi, '_'))
       ) {
